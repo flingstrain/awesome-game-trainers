@@ -30,7 +30,7 @@ Sites that publish and organize trainers by game:
 ## Trainer Engines & Tools
 
 - [Cheat Engine](https://www.cheatengine.org/) — the memory editor many trainers/tables are built on.
-- [ct-launcher](https://github.com/repackgamesnet/ct-launcher) — CLI to index/open local `.CT` tables (companion repo).
+- [ct-launcher](https://github.com/softwusa/ct-launcher) — CLI to index/open local `.CT` tables (companion repo).
 
 ## Trainer vs. Cheat Table
 
@@ -40,11 +40,20 @@ Sites that publish and organize trainers by game:
 | Ease | one-click hotkeys | attach + tick options |
 | Flexibility | fixed options | editable, more advanced |
 
-Both do the same job — enable single-player cheats. A trainer is a packaged front-end; a cheat table is the underlying script. For tables, see the sister list [awesome-cheat-engine-tables](https://github.com/repackgamesnet/awesome-cheat-engine-tables).
+Both do the same job — enable single-player cheats. A trainer is a packaged front-end; a cheat table is the underlying script. For tables, see the sister list [awesome-cheat-engine-tables](https://github.com/softwusa/awesome-cheat-engine-tables).
 
 ## Guides
 
-- [How trainers work / how to use them](https://flingtrainer.us/) — loading, hotkeys, compatibility.
+- [Are trainers and cheat tables safe?](https://flingtrainer.us/safety-faq/) — antivirus false positives, what memory editing actually does, and why online play is off-limits.
+
+### Example trainer pages
+
+What a per-game entry looks like in practice — options list, game build it targets, and install notes:
+
+- [Diablo IV](https://flingtrainer.us/diablo-iv-trainer/)
+- [Coral Island](https://flingtrainer.us/coral-island-trainer/)
+- [Tekken 8](https://flingtrainer.us/tekken-8-trainer/)
+- [Euro Truck Simulator 2](https://flingtrainer.us/euro-truck-simulator-2-trainer/)
 
 ## Safety
 
