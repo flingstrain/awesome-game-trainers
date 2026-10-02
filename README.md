@@ -30,7 +30,7 @@ Sites that publish and organize trainers by game:
 ## Trainer Engines & Tools
 
 - [Cheat Engine](https://www.cheatengine.org/) — the memory editor many trainers/tables are built on.
-- [ct-launcher](https://github.com/softwusa/ct-launcher) — CLI to index/open local `.CT` tables (companion repo).
+- [ct-launcher](https://github.com/flingstrain/ct-launcher) — CLI to index/open local `.CT` tables (companion repo).
 
 ## Trainer vs. Cheat Table
 
@@ -40,7 +40,7 @@ Sites that publish and organize trainers by game:
 | Ease | one-click hotkeys | attach + tick options |
 | Flexibility | fixed options | editable, more advanced |
 
-Both do the same job — enable single-player cheats. A trainer is a packaged front-end; a cheat table is the underlying script. For tables, see the sister list [awesome-cheat-engine-tables](https://github.com/softwusa/awesome-cheat-engine-tables).
+Both do the same job — enable single-player cheats. A trainer is a packaged front-end; a cheat table is the underlying script. For tables, see the sister list [awesome-cheat-engine-tables](https://github.com/flingstrain/awesome-cheat-engine-tables).
 
 ## Guides
 
