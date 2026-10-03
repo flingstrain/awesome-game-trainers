@@ -1,0 +1,70 @@
+name: Suggest a resource
+description: Propose a trainer directory, tool or guide for the list
+title: "add: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please read [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md) first. In short: the
+        resource has to be worth opening twice, and it has to be for **single-player /
+        offline** use.
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://example.com/
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+
+  - type: input
+    id: description
+    attributes:
+      label: One-line description
+      description: Factual, under about 15 words. No "best", no marketing language.
+      placeholder: Desktop trainer app with a large catalogue.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Which section?
+      options:
+        - Trainer Directories
+        - Trainer Engines & Tools
+        - Guides
+        - Not sure
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmations
+      options:
+        - label: The resource is for single-player / offline use only
+          required: true
+        - label: It is not a link shortener, redirect page, or survey-gated download
+          required: true
+        - label: It does not distribute pirated games
+          required: true
+        - label: It is still maintained
+          required: true
+
+  - type: textarea
+    id: affiliation
+    attributes:
+      label: Are you affiliated with this resource?
+      description: >
+        Say so if you are. It is not disqualifying — undisclosed self-promotion is.
+    validations:
+      required: false
